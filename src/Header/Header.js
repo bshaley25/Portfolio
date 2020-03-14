@@ -6,7 +6,7 @@ export default () => {
 
     return(
 
-        <header className="header">
+        <header>
         <h1>Bradley Haley</h1>
         <Nav/>
         </header>
