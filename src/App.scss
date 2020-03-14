@@ -1,0 +1,42 @@
+@import './variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* align-self: center; */
+  height: 100px;
+}
+
+h1 {
+  margin: 0 3rem;
+  align-self: center;
+  font-size: 3rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 475px;
+  margin: 0 2rem;
+
+  & h2 {
+      width: 10rem;
+      text-align: center;
+      border-width: .1rem;
+      transition-duration: .25s;
+
+      &:hover{
+        color: $primary-color ;
+      }
+      &:not(:last-child){
+          border-right-style: solid;
+      }
+
+  }
+}
