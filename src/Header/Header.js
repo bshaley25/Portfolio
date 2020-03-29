@@ -1,14 +1,16 @@
 import React from 'react'
 
-import Nav from './Nav'
-
-export default () => {
+export default ({ changeState }) => {
 
     return(
 
         <header>
-        <h1>Bradley Haley</h1>
-        <Nav/>
+            <h1 onClick={changeState}>Bradley Haley</h1>
+            <nav className="head-nav">
+                <h2 onClick={changeState}>About Me</h2>
+                <h2 onClick={changeState}>Projects</h2>
+                <h2 onClick={changeState}>Blog</h2>
+            </nav>
         </header>
 
     )
