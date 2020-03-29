@@ -1,14 +1,21 @@
 import React from 'react'
 
+import DefaultPage from './DefaultPage'
+import About from './About'
+import Projects from './Projects'
+import Blog from './Blog'
 
-export default () => {
+export default ( props ) => {
+
+    const { page } = props
 
     return(
-
-        <main>
-        <h1>This is the main section of the page</h1>
-        </main>
-
+        <>
+            { page === "Bradley Haley" ? <DefaultPage></DefaultPage> : null}
+            { page === "About Me" ? <About></About> : null}
+            { page === "Projects" ? <Projects></Projects> : null}
+            { page === "Blog" ? <Blog></Blog> : null}
+        </>
     )
 
 }
