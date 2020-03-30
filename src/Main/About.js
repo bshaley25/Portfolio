@@ -21,7 +21,7 @@ export default () => {
                 and concepts and <strong>thrives</strong> when challenged to be <strong>creative</strong> and use complex problem solving skills. 
                 <strong> Motivated</strong> to build applications that <strong>improve</strong> everyday life for others.
             </p>
-            {bool?  <img src={AboutMePhoto} onClick={handleClick}></img> : <img src={AboutMeSillyPhoto} onClick={handleClick}></img>}
+            {bool?  <img src={AboutMePhoto} onClick={handleClick} alt='butts'></img> : <img src={AboutMeSillyPhoto} onClick={handleClick } alt='butts'></img>}
         </main>
 
     )

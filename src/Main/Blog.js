@@ -8,7 +8,7 @@ export default () => {
 
             <Carousel.Item>
                 <article>
-                    <img src='https://picsum.photos/200'></img>
+                    <img src='https://picsum.photos/200' alt='butts'></img>
                     <section>
                         <h3>Asteriods!</h3>
                         <p>
@@ -23,7 +23,7 @@ export default () => {
 
             <Carousel.Item>
                 <article>
-                    <img src='https://picsum.photos/200'></img>
+                    <img src='https://picsum.photos/200' alt='butts'></img>
                     <section>
                         <h3>BUTS</h3>
                         <p>Peniasdf</p>
